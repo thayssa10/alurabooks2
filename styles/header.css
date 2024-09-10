@@ -1,4 +1,4 @@
-.cabeçalho_menu-hamburguer {
+.cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
     display: inline-block;
@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
@@ -19,15 +18,14 @@
     display: flex;
     align-items: center;
 }
-
 .container__imagem {
     padding: 1em;
 }
 
 .lista-menu {
     display: none;
-    position:absolute;
-    top: 100%;
+    position: absolute;
+    top:100%;
     width: 60vw;
 }
 
@@ -35,17 +33,15 @@
     display: block;
 }
 
-.lista-menu_titulo,
+.lista-menu_titulo, 
 .lista-menu_item {
-    padding: lem;
+    padding: 1em;
     background-color: var(--branco);
-
 }
 
-.lista-menu_titulo {
+.lista-menu_titulo{
     color: var(--laranja);
 }
-
 .lista-menu_link {
     background: var(--azul-degrade);
     -webkit-background-clip: text;
